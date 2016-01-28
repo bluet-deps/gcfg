@@ -9,8 +9,8 @@ import (
 )
 
 import (
-	"gopkg.in/gcfg.v1/scanner"
-	"gopkg.in/gcfg.v1/token"
+	"github.com/bluet-deps/gcfg/scanner"
+	"github.com/bluet-deps/gcfg/token"
 )
 
 var unescape = map[rune]rune{'\\': '\\', '"': '"', 'n': '\n', 't': '\t'}

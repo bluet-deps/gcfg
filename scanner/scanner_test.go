@@ -11,7 +11,7 @@ import (
 )
 
 import (
-	"gopkg.in/gcfg.v1/token"
+	"github.com/bluet-deps/gcfg/token"
 )
 
 var fset = token.NewFileSet()
